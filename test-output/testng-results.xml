@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FrameWorkSuite" duration-ms="15209" started-at="2018-03-05T13:13:38Z" finished-at="2018-03-05T13:13:54Z">
+    <groups>
+    </groups>
+    <test name="chrome" duration-ms="15209" started-at="2018-03-05T13:13:38Z" finished-at="2018-03-05T13:13:54Z">
+      <class name="dummyProject.gmailRegistrationUsingFrameWork">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de]" name="OpenBrowser" is-config="true" duration-ms="16965" started-at="2018-03-05T18:43:21Z" finished-at="2018-03-05T18:43:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de]" name="getMethodName" is-config="true" duration-ms="1" started-at="2018-03-05T18:43:38Z" finished-at="2018-03-05T18:43:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.gmailRegistrationUsingFrameWork.loadUrlAndCheckCorrectPageIsOpenningOrNot()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="loadUrlAndCheckCorrectPageIsOpenningOrNot()[pri:1, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de]" name="loadUrlAndCheckCorrectPageIsOpenningOrNot" duration-ms="9354" started-at="2018-03-05T18:43:38Z" finished-at="2018-03-05T18:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadUrlAndCheckCorrectPageIsOpenningOrNot -->
+        <test-method status="PASS" signature="getMethodName2(java.lang.reflect.Method)[pri:0, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de]" name="getMethodName2" is-config="true" duration-ms="1" started-at="2018-03-05T18:43:48Z" finished-at="2018-03-05T18:43:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.gmailRegistrationUsingFrameWork.loadUrlAndCheckCorrectPageIsOpenningOrNot()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName2 -->
+        <test-method status="PASS" signature="takeFailureTestCaseScreenShot(org.testng.ITestResult)[pri:0, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de]" name="takeFailureTestCaseScreenShot" is-config="true" duration-ms="0" started-at="2018-03-05T18:43:48Z" finished-at="2018-03-05T18:43:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loadUrlAndCheckCorrectPageIsOpenningOrNot status=SUCCESS method=gmailRegistrationUsingFrameWork.loadUrlAndCheckCorrectPageIsOpenningOrNot()[pri:1, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailureTestCaseScreenShot -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de]" name="getMethodName" is-config="true" duration-ms="1" started-at="2018-03-05T18:43:48Z" finished-at="2018-03-05T18:43:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.gmailRegistrationUsingFrameWork.openGmailRegistrationPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="openGmailRegistrationPage()[pri:2, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de]" name="openGmailRegistrationPage" duration-ms="5411" started-at="2018-03-05T18:43:48Z" finished-at="2018-03-05T18:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGmailRegistrationPage -->
+        <test-method status="PASS" signature="getMethodName2(java.lang.reflect.Method)[pri:0, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de]" name="getMethodName2" is-config="true" duration-ms="0" started-at="2018-03-05T18:43:53Z" finished-at="2018-03-05T18:43:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.gmailRegistrationUsingFrameWork.openGmailRegistrationPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName2 -->
+        <test-method status="PASS" signature="takeFailureTestCaseScreenShot(org.testng.ITestResult)[pri:0, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de]" name="takeFailureTestCaseScreenShot" is-config="true" duration-ms="1" started-at="2018-03-05T18:43:53Z" finished-at="2018-03-05T18:43:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openGmailRegistrationPage status=SUCCESS method=gmailRegistrationUsingFrameWork.openGmailRegistrationPage()[pri:2, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailureTestCaseScreenShot -->
+        <test-method status="PASS" signature="fillGmailRegistratationForm()[pri:3, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de]" name="fillGmailRegistratationForm" duration-ms="415" started-at="2018-03-05T18:43:53Z" finished-at="2018-03-05T18:43:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillGmailRegistratationForm -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-03-05T18:43:53Z" finished-at="2018-03-05T18:43:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.gmailRegistrationUsingFrameWork.fillGmailRegistratationForm()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="getMethodName2(java.lang.reflect.Method)[pri:0, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de]" name="getMethodName2" is-config="true" duration-ms="1" started-at="2018-03-05T18:43:54Z" finished-at="2018-03-05T18:43:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dummyProject.gmailRegistrationUsingFrameWork.fillGmailRegistratationForm()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName2 -->
+        <test-method status="PASS" signature="takeFailureTestCaseScreenShot(org.testng.ITestResult)[pri:0, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de]" name="takeFailureTestCaseScreenShot" is-config="true" duration-ms="0" started-at="2018-03-05T18:43:54Z" finished-at="2018-03-05T18:43:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fillGmailRegistratationForm status=SUCCESS method=gmailRegistrationUsingFrameWork.fillGmailRegistratationForm()[pri:3, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFailureTestCaseScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:dummyProject.gmailRegistrationUsingFrameWork@36bc55de]" name="closeBrowser" is-config="true" duration-ms="814" started-at="2018-03-05T18:43:54Z" finished-at="2018-03-05T18:43:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- dummyProject.gmailRegistrationUsingFrameWork -->
+    </test> <!-- chrome -->
+  </suite> <!-- FrameWorkSuite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [FrameWorkSuite]">
+  <parameter name="BrowserName" value="chrome"/>
+  <test name="chrome(failed)">
+    <classes>
+      <class name="dummyProject.gmailRegistrationUsingFrameWork">
+        <methods>
+          <include name="fillGmailRegistratationForm"/>
+          <include name="getMethodName2"/>
+          <include name="takeFailureTestCaseScreenShot"/>
+          <include name="getMethodName"/>
+          <include name="closeBrowser"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- dummyProject.gmailRegistrationUsingFrameWork -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [FrameWorkSuite] -->

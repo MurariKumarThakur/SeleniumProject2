@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-FrameWorkSuite">
+              <span class="suite-name border-passed">FrameWorkSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-FrameWorkSuite">
+                    <span>D:\Eclispse Workspace\WorkBookSelenium\SeleniumFrameWorkProject\FrameworkLearnning.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-FrameWorkSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-FrameWorkSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-FrameWorkSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-FrameWorkSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-FrameWorkSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-FrameWorkSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FrameWorkSuite" class="hide-methods passed suite-FrameWorkSuite"> (hide)</a> <!-- hide-methods passed suite-FrameWorkSuite -->
+                      <a href="#" panel-name="suite-FrameWorkSuite" class="show-methods passed suite-FrameWorkSuite"> (show)</a> <!-- show-methods passed suite-FrameWorkSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-FrameWorkSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FrameWorkSuite" title="dummyProject.gmailRegistrationUsingFrameWork" hash-for-method="fillGmailRegistratationForm">fillGmailRegistratationForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FrameWorkSuite" title="dummyProject.gmailRegistrationUsingFrameWork" hash-for-method="loadUrlAndCheckCorrectPageIsOpenningOrNot">loadUrlAndCheckCorrectPageIsOpenningOrNot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FrameWorkSuite" title="dummyProject.gmailRegistrationUsingFrameWork" hash-for-method="openGmailRegistrationPage">openGmailRegistrationPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FrameWorkSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FrameWorkSuite" class="panel FrameWorkSuite">
+          <div class="suite-FrameWorkSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dummyProject.gmailRegistrationUsingFrameWork</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillGmailRegistratationForm">
+                  </a> <!-- fillGmailRegistratationForm -->
+                  <span class="method-name">fillGmailRegistratationForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loadUrlAndCheckCorrectPageIsOpenningOrNot">
+                  </a> <!-- loadUrlAndCheckCorrectPageIsOpenningOrNot -->
+                  <span class="method-name">loadUrlAndCheckCorrectPageIsOpenningOrNot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openGmailRegistrationPage">
+                  </a> <!-- openGmailRegistrationPage -->
+                  <span class="method-name">openGmailRegistrationPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FrameWorkSuite-class-passed -->
+        </div> <!-- panel FrameWorkSuite -->
+        <div panel-name="test-xml-FrameWorkSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Eclispse Workspace\WorkBookSelenium\SeleniumFrameWorkProject\FrameworkLearnning.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;FrameWorkSuite&quot;&gt;
+  &lt;parameter name=&quot;BrowserName&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test name=&quot;chrome&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dummyProject.gmailRegistrationUsingFrameWork&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- chrome --&gt;
+&lt;/suite&gt; &lt;!-- FrameWorkSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FrameWorkSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FrameWorkSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">chrome (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FrameWorkSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FrameWorkSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FrameWorkSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FrameWorkSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FrameWorkSuite');
+function tableData_FrameWorkSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loadUrlAndCheckCorrectPageIsOpenningOrNot')
+data.setCell(0, 2, 'dummyProject.gmailRegistrationUsingFrameWork')
+data.setCell(0, 3, 9354);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'openGmailRegistrationPage')
+data.setCell(1, 2, 'dummyProject.gmailRegistrationUsingFrameWork')
+data.setCell(1, 3, 5411);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fillGmailRegistratationForm')
+data.setCell(2, 2, 'dummyProject.gmailRegistrationUsingFrameWork')
+data.setCell(2, 3, 415);
+window.suiteTableData['FrameWorkSuite']= { tableData: data, tableDiv: 'times-div-FrameWorkSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <div id="times-div-FrameWorkSuite">
+              </div> <!-- times-div-FrameWorkSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FrameWorkSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FrameWorkSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FrameWorkSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FrameWorkSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">dummyProject.gmailRegistrationUsingFrameWork</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">OpenBrowser(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">getMethodName(public void dummyProject.gmailRegistrationUsingFrameWork.loadUrlAndCheckCorrectPageIsOpenningOrNot())</span>
+                <span class="method-start">16984 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loadUrlAndCheckCorrectPageIsOpenningOrNot</span>
+                <span class="method-start">16985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getMethodName2(public void dummyProject.gmailRegistrationUsingFrameWork.loadUrlAndCheckCorrectPageIsOpenningOrNot())</span>
+                <span class="method-start">26341 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeFailureTestCaseScreenShot([TestResult name=loadUrlAndCheckCorrectPageIsOpenningOrNot status=SUCCESS method=gmailRegistrationUs...)</span>
+                <span class="method-start">26342 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getMethodName(public void dummyProject.gmailRegistrationUsingFrameWork.openGmailRegistrationPage())</span>
+                <span class="method-start">26343 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openGmailRegistrationPage</span>
+                <span class="method-start">26344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getMethodName2(public void dummyProject.gmailRegistrationUsingFrameWork.openGmailRegistrationPage())</span>
+                <span class="method-start">31756 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeFailureTestCaseScreenShot([TestResult name=openGmailRegistrationPage status=SUCCESS method=gmailRegistrationUsingFrameWork.ope...)</span>
+                <span class="method-start">31756 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getMethodName(public void dummyProject.gmailRegistrationUsingFrameWork.fillGmailRegistratationForm())</span>
+                <span class="method-start">31757 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fillGmailRegistratationForm</span>
+                <span class="method-start">31757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getMethodName2(public void dummyProject.gmailRegistrationUsingFrameWork.fillGmailRegistratationForm())</span>
+                <span class="method-start">32173 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeFailureTestCaseScreenShot([TestResult name=fillGmailRegistratationForm status=SUCCESS method=gmailRegistrationUsingFrameWork.f...)</span>
+                <span class="method-start">32174 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">32211 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

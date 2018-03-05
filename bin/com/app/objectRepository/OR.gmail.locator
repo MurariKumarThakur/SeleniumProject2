@@ -1,0 +1,17 @@
+moreOptionTextLoc=xpath://span[text()='More options']
+CreateAccountTextLoc=xpath://div[contains(text(),'Create')]
+CreateAccountHeading=xpath://h1[contains(text(),'Google Account')]
+fistNameField=id:FirstName
+lastNameField=id:LastName
+chooseEmailId=id:GmailAddress
+createPassword=id:Passwd
+conformPassword=id:PasswdAgain
+month=id:BirthMonth
+marchMonth=xpath://div[text()='March']
+day=id:BirthDay
+year=id:BirthYear
+gendarField=xpath://div[@title='Gender']
+MaleGender=xpath://div[text()='Male']
+mobileNumber=id:RecoveryPhoneNumber
+emailId=id:RecoveryEmailAddress
+

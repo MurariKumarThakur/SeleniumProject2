@@ -1,0 +1,4 @@
+url = https://www.flipkart.com
+configFilePath = ./config.property
+gmailUrl=http://www.gmail.com
+
