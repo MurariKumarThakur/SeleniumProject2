@@ -84,7 +84,7 @@ public class excelFileReusable {
   public String  getSingleExcelCellValue (String sheetName,int rowNum , int cellNum){
 	  
 	int i =  getSheet(sheetName).getLastRowNum();
-	  System.out.println(i);
+	 
 	  
       	cell =  getCell(sheetName, rowNum, cellNum);
       	
@@ -120,55 +120,40 @@ public class excelFileReusable {
     	      	 }else if(cell.getCellType()==Cell.CELL_TYPE_NUMERIC){
     	      		 
     	      		cellValue =  cell.getNumericCellValue()+""; 
-    	      		list.add(cellValue);
+    	      		  list.add(cellValue);
+    	      		
+    	      		
     	      	 }
+    		     
+    		     
+    		  
     		    }
+    		    
+    		    if(i==sheet.getLastRowNum()){
+		        	
+    		    	
+    		    	
+		        }   
     	  }
     	return list ;
+    	
+    	
+    	
+    	
+    	
     }
     
     
-      public void allExcelStringValue(String sheetName){
-    	  
-    	   sheet = getSheet(sheetName) ;
-    	   
-    	     for(int i=1;i<=sheet.getLastRowNum();i++){
-    	    	 
-    	    	 row =    sheet.getRow(i); 
-    	    	 
-    	    	 for(int j =0 ; j<row.getLastCellNum();j++){
-     		    	
-      		       cell =      row.getCell(j);
-      		       
-      		     if(cell.getCellType()==Cell.CELL_TYPE_STRING){
-    	      		 
-     	      		 cellValue =  cell.getStringCellValue();
-     	      		 System.out.println(cellValue);
-     	      		
-     	      	 }else if(cell.getCellType()==Cell.CELL_TYPE_NUMERIC){
-     	      		 
-     	      		cellValue =  cell.getNumericCellValue()+""; 
-     	      		System.out.println(cellValue);
-     	      		
-     	      	 }
-    	    	 
-    	     }
-    	  
-    	  
-    	     }
-			
-      }
-    
-    
+
+  
     
     
        public static void main(String[] args) {
     	   
     	
     	  
-    excelFileReusable excel =       objectUtility.getExcelReusable(objectUtility.getExcelFilePath());
-    
-          
+  
+              //  excel.allExcelStringValue("Sheet1");
 		
 	}
 }

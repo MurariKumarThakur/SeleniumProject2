@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.NoInjection;
 import org.testng.annotations.Test;
 
 import com.file.utility.propertyFileReusable;
@@ -94,6 +95,7 @@ public class flipcartTestCaseAutomation extends driverEngine {
 
 	@Test(priority = 2)
 	public void mouseOverOnElectronic_StoreTextInTextFile(Method m) throws Exception {
+		System.out.println("hi this is me");
 		String popupLoc = "//button[text()='✕']";
 		WaitForvisiability(popupLoc);
 		getDriver().findElement(By.xpath(popupLoc)).click();
@@ -105,7 +107,7 @@ public class flipcartTestCaseAutomation extends driverEngine {
 		WaitForvisiability("//span[text()='Mobiles']");
 		String MobileText = getDriver().findElement(By.xpath("//span[text()='Mobiles']")).getText();
 
-		textFileReusable file = new textFileReusable("./src/test/java/TextFileFolder/textFile.txt");
+		textFileReusable file = new textFileReusable("./src/TextFileFolder/textFile.txt");
 		// write text in text file
 		file.WriteFile(MobileText);
 
@@ -116,13 +118,13 @@ public class flipcartTestCaseAutomation extends driverEngine {
 		String actualText = getDriver().findElement(By.xpath("//h1[text()='Mobile Phones']")).getText();
 		if (actualText.contains("Mobile Phone")) {
 
-			System.out.println("passed ====" + m.getName());
+			System.out.println("passed ===="+m.getName() );
 		} else {
 
-			System.out.println("Failed ===" + m.getName());
+			System.out.println("Failed ==="+m.getName());
 		}
 	}
-
+/*
 	@Test(priority = 3)
 	public void selectPriceRange(Method m) {
 
@@ -152,9 +154,9 @@ public class flipcartTestCaseAutomation extends driverEngine {
 		WaitForvisiability("//div[text()='Samsung']");
 		getDriver().findElement(By.xpath("//div[text()='Samsung']")).click();
 
-		WaitForvisiability("//div[text()='✕']/following::div[text()='Samsung']");
+		WaitForvisiability("//div[text()='âœ•']/following::div[text()='Samsung']");
 		String filterMobileName = getDriver()
-				.findElement(By.xpath("//div[text()='✕']/following::div[text()='Samsung']")).getText();
+				.findElement(By.xpath("//div[text()='âœ•']/following::div[text()='Samsung']")).getText();
 
 		if (filterMobileName.contains("Samsung")) {
 
@@ -280,5 +282,5 @@ public class flipcartTestCaseAutomation extends driverEngine {
 			System.out.println("Failed ::=== Email Or Phone Number Not Entered !!!");
 		}
 
-	}
+	}*/
 }

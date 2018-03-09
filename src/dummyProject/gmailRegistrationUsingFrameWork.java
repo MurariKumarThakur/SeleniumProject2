@@ -36,20 +36,22 @@ public class gmailRegistrationUsingFrameWork extends action {
 		waitForVisiablity(gmailLocator.getPropertyFileValue("CreateAccountTextLoc"));
 
 		mousOver(gmailLocator.getPropertyFileValue("CreateAccountTextLoc"));
-		clickOnEnterButton();
+		clickEnterButton();
 
 		waitForVisiablity(gmailLocator.getPropertyFileValue("CreateAccountHeading"));
 		String ActualText = getText(gmailLocator.getPropertyFileValue("CreateAccountHeading"));
 		String ExpectedText = "Create your Google Account";
 
 		Assert.assertTrue(ActualText.contains(ExpectedText));
+		
+		
 
 	}
 
 	@Test(priority = 3)
 	public void fillGmailRegistratationForm() {
 		
-/*
+
 
           
 		sendKeys(gmailLocator.getPropertyFileValue("fistNameField"),
@@ -59,13 +61,13 @@ public class gmailRegistrationUsingFrameWork extends action {
 	
 		
 		sendKeys(gmailLocator.getPropertyFileValue("lastNameField"),
-				excelReader.getAllExcelCellValue("Sheet1"));
+				excelReader.getSingleExcelCellValue("Sheet1", 1, 1));
 		sendKeys(gmailLocator.getPropertyFileValue("chooseEmailId"),
-				excelReader.getAllExcelCellValue("Sheet1"));
+				excelReader.getSingleExcelCellValue("Sheet1", 1, 2));
 		sendKeys(gmailLocator.getPropertyFileValue("createPassword"),
-				excelReader.getAllExcelCellValue("Sheet1"));
+				excelReader.getSingleExcelCellValue("Sheet1", 1, 3));
 		sendKeys(gmailLocator.getPropertyFileValue("conformPassword"),
-				excelReader.getAllExcelCellValue("Sheet"));
+				excelReader.getSingleExcelCellValue("Sheet1", 1, 4));
 		click(gmailLocator.getPropertyFileValue("month"));
 		click(gmailLocator.getPropertyFileValue("marchMonth"));
 		sendKeys(gmailLocator.getPropertyFileValue("day"), "16");
@@ -73,9 +75,9 @@ public class gmailRegistrationUsingFrameWork extends action {
 		click(gmailLocator.getPropertyFileValue("gendarField"));
 		click(gmailLocator.getPropertyFileValue("MaleGender"));
 		sendKeys(gmailLocator.getPropertyFileValue("mobileNumber"),
-				excelReader.getAllExcelCellValue("Sheet1"));
+				excelReader.getSingleExcelCellValue("Sheet1", 1, 5));
 		sendKeys(gmailLocator.getPropertyFileValue("emailId"),
-				excelReader.getAllExcelCellValue("Sheet1"));   */
+				excelReader.getSingleExcelCellValue("Sheet1", 1, 6));   
 
 	}
 }

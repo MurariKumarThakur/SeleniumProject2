@@ -14,11 +14,13 @@ public class objectUtility {
 	private static  propertyFileReusable configFile ;
 	private static  textFileReusable textFile ;
 	private static  propertyFileReusable gmailLocFile ;
+	private static  propertyFileReusable fac_reg;
 	
 	private static String  excelFilePath = "./src/com/testData/TestData.xlsx" ;
 	private static String  configFilePath ="./config.property" ;
 	private static String textFilePath ="./src/TextFileFolder/textFile.txt" ;
 	private static String gmailLocPath = "./src/com/app/objectRepository/OR.gmail.locator";
+	private static String face_regPath = "./src/com/app/objectRepository/fac_reg";
 	public static excelFileReusable getExcelReusable(String filePath) {
 		
 		excelFileReusable excelReusable = new excelFileReusable(filePath);
@@ -42,6 +44,16 @@ public class objectUtility {
 		propertyFileReusable gmailLocFile = new propertyFileReusable(filePath);
 		return gmailLocFile;
 	}
+	
+	
+public static propertyFileReusable getFaceReg(String filePath) {
+		
+		propertyFileReusable faceReg = new propertyFileReusable(filePath);
+		 
+			return faceReg;
+		}
+	
+	
 	public static String getExcelFilePath() {
 		return excelFilePath;
 	}
@@ -53,6 +65,9 @@ public class objectUtility {
 	}
 	public static String getGmailLocPath() {
 		return gmailLocPath;
+	}
+	public static String getFacReg() {
+		return face_regPath;
 	}
 	
 }

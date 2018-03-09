@@ -110,7 +110,8 @@ public class action extends driverEngine {
 
 	public void sendKeys(String fullLocator, String textData) {
 		getLocator(fullLocator).clear();
-		getLocator(fullLocator).sendKeys(textData);
+		getLocator(fullLocator).sendKeys(
+);
 
 	}
 
@@ -149,7 +150,7 @@ public class action extends driverEngine {
 
 		String actualText = getLocator(fullLocator).getText();
 
-		return actualText;
+		 return actualText;
 
 	}
 
@@ -161,14 +162,15 @@ public class action extends driverEngine {
 
 	}
 
-	public void clickOnEnterButton() {
+	public void clickEnterButton() {
 
 		try {
 			r = new Robot();
 		} catch (AWTException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		r.keyPress(KeyEvent.VK_ENTER);
 	}
+	
 }

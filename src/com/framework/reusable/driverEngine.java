@@ -129,7 +129,8 @@ public class driverEngine {
 	try {
 		TakesScreenshot shootImage =	    (TakesScreenshot) driver ;
 		File file =     shootImage.getScreenshotAs(OutputType.FILE);
-		   FileUtils.copyFile(file, new File("./failureTest_CaseScreenShot/"+FailureTestCaseName +".jpeg"));
+		   String imageFilepath="./failureTest_CaseScreenShot/"+FailureTestCaseName+".jpeg";
+		   FileUtils.copyFile(file, new File(imageFilepath));
 	} catch (Exception e) {
 		
 		System.out.println(" CHECK === takeScreenShot () ===  ONCE "+ e.getMessage());
